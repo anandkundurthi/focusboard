@@ -1,0 +1,48 @@
+
+export const initialTasks = [
+  {
+    id: 1,
+    title: 'Design landing page',
+    description: 'Website redesign · Due soon',
+    category: 'Design',
+    priority: 'High',
+    dueDate: '2026-11-22',
+    status: 'todo',
+  },
+  {
+    id: 2,
+    title: 'Fix mobile navigation',
+    description: 'Frontend sprint · UI polish',
+    category: 'Development',
+    priority: 'Medium',
+    dueDate: '2026-11-24',
+    status: 'in-progress',
+  },
+  {
+    id: 3,
+    title: 'Review onboarding copy',
+    description: 'Content updates · Approved',
+    category: 'Content',
+    priority: 'Low',
+    dueDate: '2026-11-18',
+    status: 'completed',
+  },
+  {
+    id: 4,
+    title: 'Prepare project presentation',
+    description: 'Project planning · Slides',
+    category: 'Work',
+    priority: 'High',
+    dueDate: '2026-11-25',
+    status: 'todo',
+  },
+  {
+    id: 5,
+    title: 'Update responsive layouts',
+    description: 'Frontend sprint · Mobile polish',
+    category: 'Development',
+    priority: 'Medium',
+    dueDate: '2026-11-26',
+    status: 'in-progress',
+  },
+];
