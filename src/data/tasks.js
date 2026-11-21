@@ -45,4 +45,13 @@ export const initialTasks = [
     dueDate: '2026-11-26',
     status: 'in-progress',
   },
+  {
+    id: 6,
+    title: 'Test task management workflow',
+    description: 'Quality assurance · Functional testing',
+    category: 'Development',
+    priority: 'High',
+    dueDate: '2026-11-27',
+    status: 'todo',
+  },
 ];
