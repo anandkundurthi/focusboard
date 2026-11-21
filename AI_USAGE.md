@@ -25,7 +25,6 @@ Examples of prompts used during development:
 2. "Implement task creation, editing, deletion, and status updates using reusable React components."
 3. "Help me implement shared task state using React Context API and a custom hook."
 4. "Add search and filtering functionality for tasks based on status and priority."
-5. "Review the responsive CSS and help fix layout issues across desktop, tablet, and mobile screens."
 
 ## 4. Human Review and Validation
 
