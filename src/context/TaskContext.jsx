@@ -9,7 +9,7 @@ function getStoredTasks() {
   try {
     const savedTasks = localStorage.getItem(STORAGE_KEY);
 
-    if (savedTasks) {
+    if (savedTasks !== null) {
       const parsedTasks = JSON.parse(savedTasks);
 
       if (Array.isArray(parsedTasks)) {
@@ -69,9 +69,7 @@ export function TaskProvider({ children }) {
           ? {
               ...task,
               status:
-                task.status === 'completed'
-                  ? 'todo'
-                  : 'completed',
+                task.status === 'completed' ? 'todo' : 'completed',
             }
           : task
       )
